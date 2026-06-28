@@ -9,6 +9,5 @@ chmod +x discord-update
 
 ```
 sudo mv discord-update /usr/local/bin/
-
 ```
 3. Test by running the command 
