@@ -20,7 +20,10 @@ Just download and make a custom keyboard shortcut.
 1. Download the file and save it to the directory `/usr/share/X11/xkb/symbols/` (requires admin rights) OR create a file with the name "usde" there and copy the contents of the [usde](https://github.com/BigBabyJ0ra/qof_scripts/blob/main/usde) file. 
 
 2. Register the new layout:
-   * Open the rules file: `sudo nano /usr/share/X11/xkb/rules/evdev.xml`
+   * Open the rules file:
+     ```
+     sudo nano /usr/share/X11/xkb/rules/evdev.xml
+     ```
    * Search for `<layoutList>` (press `Ctrl` + `W`, type `<layoutList>`, and press `Enter`).
    * Immediately below `<layoutList>`, paste the following block to register your `usde` layout:
    
