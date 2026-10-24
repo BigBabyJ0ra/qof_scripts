@@ -27,19 +27,19 @@ Just download and make a custom keyboard shortcut.
    * Search for `<layoutList>` (press `Ctrl` + `W`, type `<layoutList>`, and press `Enter`).
    * Immediately below `<layoutList>`, paste the following block to register your `usde` layout:
    
-   ```
-      <layout>
-       <configItem>
-         <name>usde</name>
-         <shortDescription>usde</shortDescription>
-         <description>English (USDE Custom)</description>
-         <languageList>
-           <iso639Id>eng</iso639Id>
-         </languageList>
-       </configItem>
-       <variantList/>
-     </layout>
-   ```
+     ```
+        <layout>
+         <configItem>
+           <name>usde</name>
+           <shortDescription>usde</shortDescription>
+           <description>English (USDE Custom)</description>
+           <languageList>
+             <iso639Id>eng</iso639Id>
+           </languageList>
+         </configItem>
+         <variantList/>
+       </layout>
+     ```
    * Save and exit.
 3. Clear the compiled XKB cache so the system detects your new standalone file:
    ```
