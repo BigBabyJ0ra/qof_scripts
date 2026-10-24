@@ -39,6 +39,8 @@ Just download and make a custom keyboard shortcut.
    ```
    * Save and exit.
 3. Clear the compiled XKB cache so the system detects your new standalone file:
-   ```sudo rm -rf /var/lib/xkb/*```
+   ```
+   sudo rm -rf /var/lib/xkb/*
+   ```
 5. Log out, log in, go to settings and select the keyboard layout.
 To use the letters use right alt + corresponding non-umlaut letter for umlaut variant and for scharfes S use S. For capital letters add shift to keys combinations
