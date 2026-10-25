@@ -47,3 +47,7 @@ Just download and make a custom keyboard shortcut.
    ```
 5. Log out, log in, go to settings and select the keyboard layout.
 To use the letters use right alt + corresponding non-umlaut letter for umlaut variant and for scharfes S use S. For capital letters add shift to keys combinations
+6. (Optional) The previous methods worked on my PC setup, but did not work on my laptop. The issue might lie with GNOME GUI settings app. Therefore, to force use the keyboard layout run the following command:
+   ```
+   gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'usde'), ('xkb', 'ru')]"
+   ```
